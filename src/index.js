@@ -10,5 +10,5 @@ module.exports = function check(str, bracketsConfig) {
     }
     
   }
-  return (checkingStack.length === 0);
+  return (checkingStack.length % 2 === 0);
 }
